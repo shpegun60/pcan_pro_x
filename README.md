@@ -37,8 +37,10 @@ Build:
 - PCAN FD firmware `make fd` supports by `USB FS/HS`
 - PCAN FD firmware for HEX-V2 HW `make fd TARGET_CRYSTAL=25 TARGET_USB_ID=FS TARGET_VARIANT=HEXV2_CLONE`
 
-## Support me
-**Bitcoin (P2WPKH):** bc1qstnsjqu2kw9v2axens54ycegn3stwvluq7ze5j
+
+#### Support me
+- <a href="https://www.patreon.com/bePatron?u=58145249" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+- **Bitcoin (P2WPKH):** bc1qstnsjqu2kw9v2axens54ycegn3stwvluq7ze5j
 
 
 License
