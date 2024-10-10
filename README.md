@@ -1,4 +1,4 @@
-# PEAK PCAN PRO/PRO FD firmware for STM32 F4VE board (STM32CubeIDE)
+# PEAK PCAN PRO/PRO FD firmware builded for STM32 F4VE board (STM32CubeIDE)
 forked from: [GitHub Page](https://github.com/dreampet/pcan_pro_x) 
 
 Target hardware:
