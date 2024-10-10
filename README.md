@@ -1,7 +1,8 @@
-# PEAK PCAN PRO/PRO FD firmware for STM32F4 based boards
+# PEAK PCAN PRO/PRO FD firmware for STM32 F4VE board (STM32CubeIDE)
+forked from: [GitHub Page](https://github.com/dreampet/pcan_pro_x) 
 
 Target hardware:
-* Any STM32F407/405/417/415 based boards with 8/25MHz oscillator
+* [STM32 F4VE Board](https://stm32-base.org/boards/STM32F407VET6-STM32-F4VE-V2.0.html)
 
 Pinout:
 |PIN/PINS|DESCRIPTION|
@@ -26,28 +27,7 @@ Limits:
 - Be sure to use **PB14/PB15** pins for USB if you wants **PRO/PRO FD**
 
 Toolchain:
-- GNU Arm Embedded Toolchain
+- STM32CubeIDE
 
 Tips:
 - PRO FD firmware has better performance on windows ( due internal PEAK driver implementation )
-
-Build:
-- PCAN PRO firmware `make pro` only for `USB HS`
-- PCAN PRO FD firmware `make pro_fd` only for `USB HS`
-- PCAN FD firmware `make fd` supports by `USB FS/HS`
-- PCAN FD firmware for HEX-V2 HW `make fd TARGET_CRYSTAL=25 TARGET_USB_ID=FS TARGET_VARIANT=HEXV2_CLONE`
-
-
-#### Support me
-- <a href="https://www.patreon.com/bePatron?u=58145249" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
-- **Bitcoin (P2WPKH):** bc1qstnsjqu2kw9v2axens54ycegn3stwvluq7ze5j
-
-
-License
-----
-
-WTFPL
-
-[pld]: <https://www.peak-system.com/fileadmin/media/linux/index.htm>
-[pvw]: <https://www.peak-system.com/PCAN-View.242.0.html>
-[bsmw]: <https://rbei-etas.github.io/busmaster/>
