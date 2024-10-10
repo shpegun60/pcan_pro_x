@@ -7,15 +7,7 @@ Target hardware:
 
 
 Pinout:
-|PIN/PINS|DESCRIPTION|
-| ------ | ------ |
-|PC10|STATUS LED|
-|PA2/PA3|TX/RX CAN1 LED|
-|PC6/PC7|TX/RX CAN2 LED|
-|PB8/PB9|CAN1 RX/TX|
-|PB5/PB6|CAN2 RX/TX|
-|PB14/PB15 |USB HS DM/DP|
-|PA11/PA12 |USB FS DM/DP*|
+* For view please Open STM32CubeIde 
 
 Features:
 - Works out of the box in Linux
