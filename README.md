@@ -3,6 +3,8 @@ forked from: [GitHub Page](https://github.com/dreampet/pcan_pro_x)
 
 Target hardware:
 * [STM32 F4VE Board](https://stm32-base.org/boards/STM32F407VET6-STM32-F4VE-V2.0.html)
+![pict](https://stm32-base.org/assets/img/boards/STM32F407VET6_STM32_F4VE_V2.0-2.jpg)
+
 
 Pinout:
 |PIN/PINS|DESCRIPTION|
